@@ -1,11 +1,11 @@
 CLI tool for analyzing, deduplicating, organizing, and cleaning up files in a directory. Built with Node.js ES Modules, EventEmitter progress events, and streams for large files.
 
-## Requirements
+### Requirements
 
 - Node.js 18.17+ / 20.1+
 - No npm dependencies (Node builtins only)
 
-## Install
+### Install
 
 ```bash
 cd file-organizer
@@ -21,7 +21,7 @@ npm run organize -- /path/to/source --output /path/to/target
 npm run cleanup -- /path/to/directory --older-than 90
 ```
 
-## Project structure
+### Project structure
 
 ```
 file-organizer/
@@ -37,7 +37,7 @@ file-organizer/
     └── walk.js
 ```
 
-## Commands
+### Commands
 
 ### scan
 
@@ -137,7 +137,7 @@ node file-organizer.js cleanup /path/to/directory --older-than 90 --confirm
 - `file-deleted`
 - `cleanup-complete`
 
-## Error handling
+### Error handling
 
 All filesystem operations are wrapped in `try/catch`. Known codes:
 
@@ -147,6 +147,6 @@ All filesystem operations are wrapped in `try/catch`. Known codes:
 
 The process exits with code `1` on failure.
 
-## License
+### License
 
 MIT
