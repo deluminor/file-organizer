@@ -1,5 +1,3 @@
-# file-organizer
-
 CLI tool for analyzing, deduplicating, organizing, and cleaning up files in a directory. Built with Node.js ES Modules, EventEmitter progress events, and streams for large files.
 
 ## Requirements
